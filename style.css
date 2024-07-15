@@ -81,6 +81,9 @@ header{
     border-radius: 8px;
     border: none;
 }
+.explore-btn:hover{
+    background-color: blueviolet;
+}
 .explore-btn>a{
     text-decoration: none;
     color: white;
@@ -100,3 +103,44 @@ header{
 
 /* header section media query: mobile version(max-width: 576px) */
 
+main{ max-width: 1440px;}
+.our-features-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+}
+.features-image-gallery img{
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+.features-image-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.features-info{
+    margin-left: 73px;
+}
+.features-title{
+    font-size: 3rem;
+}
+.quick-list{
+    font-weight: 500;
+    color: #727272;
+}
+.our{
+    font-weight: bolder;
+}
+.features{
+    font-weight: bold;
+    color: #FF900E;
+}
+.features-description{
+    margin: 24px 0;
+    padding-right: 20px;
+}
+.features-info>.explore-btn{
+    margin-left: 0px;
+}
