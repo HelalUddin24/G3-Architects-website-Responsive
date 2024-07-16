@@ -229,3 +229,22 @@ main{ max-width: 1440px;}
 .card h5{
     font-size: 1.3rem;
 }
+
+/* sponsores style */
+
+.sponsores-area{
+    margin-top: 180px;
+}
+.sponsores-heading{
+    text-align: center;
+}
+.sponsor-title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.sponsores{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
