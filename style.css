@@ -248,3 +248,16 @@ main{ max-width: 1440px;}
     display: flex;
     justify-content: space-evenly;
 }
+
+/* footer style */
+
+.footer-area{
+    height: 100px;
+    width: 1440px;
+    background-color: #FFF4E7;
+    text-align: center;
+    align-content: center;
+    margin-top: 130px;
+    margin-bottom: 215px;
+    font-size: 1.3rem;
+}
